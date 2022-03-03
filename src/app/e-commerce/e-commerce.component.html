@@ -1,0 +1,43 @@
+<mat-toolbar>
+    <span>Products List</span>
+    <span class="example-spacer"></span>
+  <button mat-icon-button class="example-icon favorite-icon" (click) ="GridLayout=true">
+    <mat-icon [color]="GridLayout?'primary':'black'" >grid_on</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" (click) ="GridLayout=false">
+    <mat-icon [color]="!GridLayout?'primary':'black'" >view_list</mat-icon>
+  </button>
+  <form [formGroup]="form">
+  <mat-form-field  class="mat-field" >
+    
+    <mat-select formControlName="SelectedFilter" class="mat-select">
+     
+      <mat-option *ngFor="let price_filter of priceFilter" [value]="price_filter.value">
+        {{price_filter.viewValue}}
+      </mat-option>
+    </mat-select>
+    </mat-form-field>
+</form>
+
+
+  </mat-toolbar>
+  <div class="margin flex-container">
+    
+      
+  <mat-card  [ngClass]="GridLayout ?'Grid':'List'"   *ngFor="let product of Products| filterProducts:this.form.controls['SelectedFilter'].value">
+    <mat-card-content>
+     
+        <img mat-card-image src="{{product.ImagePath}}" width="100" height="150" alt="product">
+      
+    </mat-card-content>
+    <mat-divider inset></mat-divider>
+    <mat-card-actions class="text-center align">
+        <button mat-button >{{product.ProductName}}</button>
+      <button mat-button >{{product.ProductPrice | currency:'INR'}}</button>
+      
+    </mat-card-actions>
+  </mat-card>
+
+
+ 
+</div>

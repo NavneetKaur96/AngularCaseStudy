@@ -1,0 +1,16 @@
+
+<mat-card class="example-card1"  style="display:block!important;">
+<mat-card-title style="text-align:center">Timestamp Logs</mat-card-title>
+
+    <mat-card-content style="text-align:center">
+     
+      <ul>
+      <ng-container *ngFor="let l of logs">
+     <li *ngIf="l.key==='S'">Started at {{l.date | date:'dd-mm-yyyy hh:mm:ss a'}}</li>
+     <li *ngIf="l.key==='P'">Paused at {{l.date | date:'dd-mm-yyyy hh:mm:ss a'}}</li>
+    </ng-container>
+  </ul>
+    </mat-card-content>
+   
+    
+  </mat-card>

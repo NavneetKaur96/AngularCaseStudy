@@ -1,0 +1,9 @@
+
+   
+
+ <mat-grid-list cols="2" rowHeight="260px" >
+    <mat-grid-tile ><app-display-countdown [countdown]="TimeValue" ></app-display-countdown></mat-grid-tile>
+    <mat-grid-tile ><app-timer-input (TimerValue)="TimerValue($event)" (StartCount)="StartCount=$event" (PauseCount)="PauseCount=$event" (SPLog)="SPLog=$event"></app-timer-input></mat-grid-tile>
+    <mat-grid-tile><app-time-log [logs]="SPLog" ></app-time-log></mat-grid-tile>
+    <mat-grid-tile><app-count [started]="StartCount" [paused]="PauseCount"></app-count></mat-grid-tile>
+  </mat-grid-list>

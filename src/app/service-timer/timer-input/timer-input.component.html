@@ -1,0 +1,28 @@
+
+<mat-card class="example-card1">
+    
+    <mat-card-content style="text-align:center">
+     <label>Enter Time limit</label>
+     <mat-form-field class="InputField">
+       
+        <input matInput type="number" [disabled]="disable" min="0" [(ngModel)]="InputVal" (ngModelChange)="TimerValToSend=InputVal;">
+      
+      
+      </mat-form-field>
+      <mat-card-actions style="text-align:center">
+      <button mat-raised-button color="primary" (click)="StartPause()">Start/Pause</button> <button style="margin-left:10px" mat-raised-button color="primary" (click)="reset()">Reset</button>
+     
+      <ul *ngIf="pausedTimes.length>0">
+        <ng-container *ngFor="let pause of pausedTimes">
+        <li *ngIf="pause.key==='P'">
+          Paused at {{pause.timer}}
+        
+        </li>
+      </ng-container>
+      </ul>
+    </mat-card-actions>
+    
+    </mat-card-content>
+ 
+    
+  </mat-card>
