@@ -1,0 +1,201 @@
+[{
+    "ProductName":"Product1",
+    "ProductPrice":800,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product2",
+    "ProductPrice":3000,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product3",
+    "ProductPrice":14000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product4",
+    "ProductPrice":112000,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product5",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+},
+{
+    "ProductName":"Product6",
+    "ProductPrice":1200,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product7",
+    "ProductPrice":4000,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product8",
+    "ProductPrice":14000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product9",
+    "ProductPrice":112000,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product10",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+},
+{
+    "ProductName":"Product11",
+    "ProductPrice":1200,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product12",
+    "ProductPrice":4000,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product13",
+    "ProductPrice":14000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product14",
+    "ProductPrice":200,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product15",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+},
+{
+    "ProductName":"Product16",
+    "ProductPrice":1200,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product17",
+    "ProductPrice":700,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product18",
+    "ProductPrice":6000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product19",
+    "ProductPrice":112000,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product20",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+},
+{
+    "ProductName":"Product21",
+    "ProductPrice":1200,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product22",
+    "ProductPrice":4000,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product23",
+    "ProductPrice":8000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product24",
+    "ProductPrice":112000,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product25",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+},
+{
+    "ProductName":"Product26",
+    "ProductPrice":1200,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product27",
+    "ProductPrice":4000,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product28",
+    "ProductPrice":14000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product29",
+    "ProductPrice":112000,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product30",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+},
+{
+    "ProductName":"Product31",
+    "ProductPrice":1200,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product32",
+    "ProductPrice":4000,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product33",
+    "ProductPrice":14000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product34",
+    "ProductPrice":112000,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product35",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+},
+{
+    "ProductName":"Product36",
+    "ProductPrice":1200,
+    "ImagePath":"assets/product1.jfif"
+},
+{
+    "ProductName":"Product37",
+    "ProductPrice":4000,
+    "ImagePath":"assets/product2.jfif"
+},
+{
+    "ProductName":"Product38",
+    "ProductPrice":14000,
+    "ImagePath":"assets/product3.jfif"
+},
+{
+    "ProductName":"Product39",
+    "ProductPrice":112000,
+    "ImagePath":"assets/product4.jfif"
+},
+{
+    "ProductName":"Product40",
+    "ProductPrice":250000,
+    "ImagePath":"assets/product5.jfif"
+}
+]
