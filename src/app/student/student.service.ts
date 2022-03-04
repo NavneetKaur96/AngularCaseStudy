@@ -10,6 +10,6 @@ export class StudentService {
 
   constructor(private http:HttpClient) { }
   getStudents():Observable<Student[]>{
-    return this.http.get<Student[]>('../assets/Students.json')
+    return this.http.get<Student[]>('./assets/Students.json')
   }
 }

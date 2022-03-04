@@ -9,9 +9,9 @@ import { Product } from './Product.model';
 export class ECommerceService {
 
   constructor(private http:HttpClient) {
-    
+
    }
    getProducts():Observable<Product[]>{
-     return this.http.get<Product[]>('../assets/Products.json')
+     return this.http.get<Product[]>('./assets/Products.json')
    }
 }
